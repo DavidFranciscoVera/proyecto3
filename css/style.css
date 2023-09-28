@@ -2,12 +2,20 @@
     background-image: url("../img/logo3.png");
     background-size: cover;
     background-position: center;
+
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin: 0px 0px;
+    padding: 0px 0px;
+  }
+
+  .titulo{
+    background-color: rgba(251, 251, 252, 0.597);
+    
   }
 
   .product-container {
@@ -107,7 +115,7 @@ P {
     }
   }
   .copyright {
-    background-color: rgba(13, 13, 14, 0.897);
+    background-color: rgba(251, 251, 252, 0.897);
     
   }
 
