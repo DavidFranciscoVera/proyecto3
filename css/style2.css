@@ -46,10 +46,21 @@
   input[type="submit"]:hover {
     background-color: #45a049;
   }
+  h1 {
+    font-family: 'Tilt Neon', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    padding: 20px;
+    background-color:#194dda;
+    text-align: center;
+    
+    
+  }
+
 
   h2 {
     font-family: 'Tilt Neon', sans-serif;
-    font-size: 45px;
+    font-size: 40px;
     font-weight: bold;
     padding: 20px;
     background-color:#45a049;
@@ -57,14 +68,29 @@
     
     
   }
+ 
   .imagen{
     background-image: url(../img/sobres.jpg);
-    padding: 20px;
+    padding: 10px;
     
     font-size: large;
     color:black;
     font-weight: bolder;
  
   }
+  .horario {
+    font-family: 'Tilt Neon', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+    background-color: #f5040400;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
   
  
